@@ -31,5 +31,5 @@ def valid_move?(board, index)
 end
 
 def turn(board, index, token = "X")
-  
+  puts 
 end
