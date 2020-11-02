@@ -30,6 +30,6 @@ def valid_move?(board, index)
   end
 end
 
-def turn(board)
+def turn(board, index, token = "X")
   
 end
