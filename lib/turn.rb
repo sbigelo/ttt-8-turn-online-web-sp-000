@@ -32,7 +32,6 @@ end
 
 def turn(board, index, token = "X")
   puts "Please enter 1-9:"
-  gets.chomp
-  input = input_to_index(user_input)
+  
   
 end
