@@ -32,7 +32,7 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input = get.chomp
+  input = get.strip
   index = input_to_index(user_input)
   if valid_move?(board, index)
     move(board, index)
@@ -41,3 +41,4 @@ def turn(board)
     turn(board)
   end
 end
+
