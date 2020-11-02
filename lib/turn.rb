@@ -32,6 +32,10 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  
-  
+  index = get.chomp
+  if index 
+    move(board, index, current_player = "X")
+  else
+    turn(board)
+  end
 end
